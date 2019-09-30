@@ -1,0 +1,203 @@
+*{
+    font-family: 'Roboto Condensed', sans-serif; 
+}
+
+.foo{
+    display:block !important;
+}
+
+.slow-transition{
+    -webkit-transition: 1s linear; 
+	-moz-transition: 1s linear; 
+	-o-transition: 1s linear;
+}
+
+.box-effect{
+    border:1px solid #FFF;
+    border-radius:3px;
+    box-shadow: 3px 3px 3px rgba(10, 10, 10, 0.3);
+}
+
+body{
+    margin:0 auto;
+    background: radial-gradient(circle,rgba(158, 158, 161, 0.959),#283e4a);
+}
+
+.header{
+    width:100%;
+    background:linear-gradient(to bottom right,#283e4a,#4a4f52d2);
+    padding:0.526%;
+    margin:0;
+    box-shadow:3px 3px  rgba(142, 146, 146, 0.973);
+    position:fixed;
+    top:0;
+}
+
+.wrapper{
+    width:80%;
+    margin: 0 auto;
+    padding:0.265%;
+}
+
+.logo{
+    color:#fff;
+    text-decoration:none;
+    font-size:1.5em;
+    font-family: 'Bowlby One SC', cursive;
+    letter-spacing: 3px;
+}
+
+.logo:hover{
+    color:rgb(110, 214, 153);
+}
+
+/* .cefet-txt{
+    color:rgb(110, 214, 153);
+    font-family: 'Bowlby One SC', cursive;
+    font-size:1.2em;
+}
+.cefet-txt:hover{
+    color:#fff;
+    font-size:1.2em;
+} */
+
+.login-form{
+    position:relative;
+    color:#fff;
+    float:right;
+    margin-top:0.27%;
+    width:40%;
+}
+
+.login-email,.login-password{
+    margin-right:0.265%;
+    width:41%;
+    height:25px;
+}
+
+.login-submit-button{
+    position:absolute;
+    margin-left:0.8%;
+    width:14.75%;
+    height:25px;
+    color:#fff;
+    background-color:inherit;
+    cursor:pointer;
+    text-align:center;
+}
+
+.login-submit-button:hover{
+    border:none; 
+    color:#283e4a;
+    background-color:rgb(110, 214, 153);
+	-webkit-transition: 0.4s linear; 
+	-moz-transition: 0.4s linear; 
+    -o-transition: 0.4s linear; 
+}
+
+.link-forgot-password{
+    font-size:0.9em;
+    display:none;
+    float:right;
+    text-decoration: none;
+    color:#fff;
+    cursor:pointer;
+}
+
+.link-forgot-password:hover{
+    color:rgb(110, 214, 153);  
+}
+
+.cadastro-box{
+    width:30%;
+    height:75%;
+    margin: 6.5% auto;
+    background-color:#EDF0F3;
+    border-radius:5px;
+    box-shadow: 5px 5px 5px rgba(10, 10, 10, 0.3);
+}
+
+.cadastro-subtitle{
+    background-color:#fff;
+    border-bottom:1px solid rgba(211, 214, 214, 0.973);
+    box-shadow: 1px 1px rgba(10, 10, 10, 0.1);
+    border-radius: 5px 5px 0 0;
+}
+
+.cadastro-subtitle img{
+    display: block;
+    margin:0 auto;
+    width: 17%;
+}
+
+.cadastro-subtitle h3{
+    text-align:center;
+    color:#283e4a;
+    margin-top:0;
+    margin-bottom:1.5%;
+    font-size: 1em;
+}
+
+.form-body{
+    margin-top:2%; 
+    height:80%
+}
+
+.form-body input{
+    display:block;
+    width:85%;
+    height:7%;
+    padding:1%;
+    margin:3% auto;
+    justify-content: center;
+}
+
+.box-dt-nasc{
+    width:85%;
+    margin:3% auto;
+}
+
+
+.box-birthday{
+    width:15.5%;
+    height:5%;
+    margin:3% 0.7%;
+    text-align:center;
+}
+
+.cadastrar-submit-button{
+    font-size:1em;
+    color:#fff;
+    background-color:rgb(110, 184, 214);
+    border:none;
+    cursor:pointer;
+    font-weight:bold;
+    letter-spacing:3px;
+}
+
+.cadastrar-submit-button:hover{
+    color:#283e4a;
+    font-size:1.1em;
+    width:90%;
+    background-color:rgb(110, 214, 153);
+    -webkit-transition: 0.4s linear; 
+	-moz-transition: 0.4s linear; 
+    -o-transition: 0.4s linear;
+}
+
+.aviso-cadastro{
+    width:85%;
+    margin:3% auto;
+    color:#283e4a;
+    font-size:0.7em;
+    text-align:justify;
+}
+
+input:-webkit-autofill {
+    -webkit-box-shadow: 0 0 0 30px white inset;
+}
+
+/* Cor do texto do autocomplete */
+input:-webkit-autofill {
+    -webkit-text-fill-color: #283e4a !important;
+}
