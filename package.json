@@ -18,7 +18,7 @@
   "homepage": "https://gitlab.com/eldercosta/instacefet#README",
   "dependencies": {
     "bootstrap": "^4.1.1",
-    "jquery": "^3.3.1",
+    "jquery": "^3.5.0",
     "jquey": "0.0.1-security"
   }
 }
